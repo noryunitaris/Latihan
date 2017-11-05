@@ -16,4 +16,10 @@ int main(){
 	{
 		cout<<"yang anda input adalah bilangan nol"<<endl;
 	}
+	else if (a>0)
+	{
+		cout<<"yang anda input adalah bilangan positif"<<endl;
+	}
+	
+	return 0;
 }
