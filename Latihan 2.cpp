@@ -9,4 +9,16 @@ int main(){
 	cout<<"S = Segitiga" <<endl ;
 	cout<<"P = Persegi Panjang" <<endl;
 	cout<<"Pilih luas yang akan dihitung P atau S ? " ; cin>>Pilih;		
+
+
+if(Pilih=='P'){
+	system ("cls");
+	cout << "Anda Menghitung luas persegi panjang" <<endl;
+	cout <<""<<endl;
+	cout <<"Berapa panjangnya ?"; cin>> p;
+	cout <<"Berapa lebarnya  ?"; cin>> lb;
+	l = p*lb;
+	
+	cout<< "Jadi luas persegi panjang adalah "<< l;
+}
 }
