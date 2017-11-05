@@ -14,4 +14,8 @@ int main(){
 	{
 		cout<<"Criteria Underwight"<<endl;
 	}
+	else if (t/2.5 <= b <= t/2.3)
+	{
+		cout<<"Criteria Normal"<< endl;
+	}
 }
