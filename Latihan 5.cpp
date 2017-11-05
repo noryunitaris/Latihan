@@ -18,4 +18,6 @@ int main(){
 	{
 		cout<<"Criteria Normal"<< endl;
 	}
+	else if ((t/2.3)<b) 
+	cout<<"Criteria Overwight"<<endl;
 }
