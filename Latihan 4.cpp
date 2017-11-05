@@ -8,5 +8,12 @@ int main(){
 	cout<<""<<endl;
 	cout<<"masukkan bilangan : ";cin>>a;
 	cout<<""<<endl;
-	
+	if (a < 0)
+	{
+		cout<<"yang anda input adalah bilangan negatif"<<endl;
+	}
+	else if (a==0)
+	{
+		cout<<"yang anda input adalah bilangan nol"<<endl;
+	}
 }
