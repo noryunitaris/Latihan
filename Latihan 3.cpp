@@ -23,4 +23,15 @@ int main(){
 		cout<<"besar pajak :Rp "<<p<<endl;
 		cout<<"gaji bersih anda anda adalah :Rp "<<gb<<endl;
 	}
+	else {
+		system ("cls");
+		gt = g*40;
+		p = gt*0.15;
+		gb = gt-p;
+		
+		cout<<"besar pajak :Rp "<<p<<endl;
+		cout<<"Gajih Total :Rp "<<gt<<endl;
+		cout<<"gaji bersih anda adalah :Rp "<<gb<<endl;
+	}
+	return 0;
 }
