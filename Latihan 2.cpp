@@ -21,4 +21,15 @@ if(Pilih=='P'){
 	
 	cout<< "Jadi luas persegi panjang adalah "<< l;
 }
+	else if (Pilih=='S'){
+	system ("cls");
+	cout<< "Anda Menghitung luas segitiga" <<endl;
+	cout<<""<<endl;
+	cout<<"Berapa alasnya ?"; cin>> a;
+	cout<<"Berapa tingginya ?"; cin>> t;
+	l = 0.5*a*t;
+	
+	cout<< "Jadi luas segitinya adalah "<< l;	
+	}
+	return 0;
 }
