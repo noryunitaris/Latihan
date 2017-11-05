@@ -9,4 +9,9 @@ int main(){
 	cout<<"masukkan tinggi badan(cm) : "; cin>>t;
 	cout<<"masukkan berat badan(kg) : "; cin>>b;
 	cout<<""<<endl;
+	
+	if (b<(t/2.5))
+	{
+		cout<<"Criteria Underwight"<<endl;
+	}
 }
